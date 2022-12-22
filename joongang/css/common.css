@@ -1,0 +1,230 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+button,h1,h2,h3,h4,h5,h6,input,ol,ul{margin:0;padding:0}
+.blindText,.hide,caption,legend{width:0;height:0;overflow:hidden}
+.line_sprite:after,.line_sprite:before,q:after,q:before{content:''}
+a,body{color:#3c3e40}
+blockquote,body,dd,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,span,td,textarea,th,ul{padding:0;margin:0;letter-spacing:0}
+a{text-decoration:none}
+a:active,a:hover{text-decoration:underline}
+address,caption,cite,code,dfn,em,var{font-weight:400}
+button,input{border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0;cursor:pointer}
+table{border-spacing:0}
+abbr,acronym,fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}
+strong{font-weight:700}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;color:#444}
+h1,h2,h3{font-weight:700}
+.hide,caption,legend{position:absolute!important;font-size:0;line-height:0;visibility:hidden}
+h1,h2,h3,h4{position:relative}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}
+h1{font-size:40px;letter-spacing:-.5px;line-height:normal}
+h2{font-size:35px}
+h3{font-size:25px}
+.byline .inner_cont li strong,h4{font-weight:400}
+h4{font-size:20px}
+.blindText{font-size:0;text-indent:-9999px}
+.line_sprite:after,.line_sprite:before{background:#fff;display:block;width:10px;height:3px;position:absolute}
+.clearfx{zoom:1}
+.clearfx:after{content:".";display:block;font-size:0;height:0;line-height:0;clear:both}
+body,html{font-size:16px}
+.pt_30{padding-top:30px!important}
+.fixed{position:fixed!important}
+.m_item{display:none!important}
+.pc_item{display:block!important}
+body{font-family:'Malgun Gothic','맑은 고딕',Dotum,'돋움',arial,helvetica;-webkit-font-smoothing:antialiased;word-wrap:break-word;word-break:break-all;line-height:normal;letter-spacing:0}
+.comment-container,.comment_popup .comment-container{font-family:Dotum,'돋움','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo',Arial,sans-serif}
+@media only screen and (max-width:768px){
+.m_item{display:block!important}
+.pc_item{display:none!important}
+html{font-size:16px}
+body{overflow:auto}
+}
+header{display:block;position:fixed;width:100%;height:34px;padding:0;z-index:999;background:#222;top:0}
+header .sns_share li,header .sns_share li a{display:inline-block;width:25px;height:25px}
+#wrap,header .logo,header .sns_share,header .sns_share li{position:relative}
+header .logo{height:100%;margin:10px 0 0 15px;float:left;font-size:0;line-height:0}
+header .logo a{display:inline-block;width:62px;height:15px;background:url(https://images.joins.com/newsroom/common/logo_svg_new.svg) no-repeat;background-size:contain;text-indent:-9999px}
+header .sns_share{float:right;margin:5px 14px;height:25px}
+header .sns_share li{margin-right:3px}
+@media only screen and (max-width:768px){
+header .sns_share li{margin-right:4px}
+}
+header .sns_share li:last-child{margin-right:0}
+header .sns_share li a{overflow:hidden;font-size:0}
+header .sns_share li a{background-image:url(../image/icon_sp.png);background-repeat:no-repeat;transition:all .3s ease-out}
+header .sns_share li a.facebook{background-position:0 0}
+header .sns_share li a.facebook:hover{background-position:0 -25px}
+header .sns_share li a.twitter{background-position:-25px 0}
+header .sns_share li a.twitter:hover{background-position:-25px -25px}
+header .sns_share li a.kakao{background-position:-50px 0}
+header .sns_share li a.kakao:hover{background-position:-50px -25px}
+header .sns_share li a.comment{background-position:-75px 0}
+header .sns_share li a.comment:hover{background-position:-75px -25px}
+.bg{display:none;position:fixed;top:0;background:rgba(0,0,0,.7);width:100%;height:100%;z-index:100}
+.byline{position:relative;width:100%;max-width:880px;border:1px solid #ebebeb;background:#f8f8f8;margin:20px auto}
+.byline .publish{font-size:11px;color:#bebebe;position:absolute;top:-24px;right:4px}
+.byline .inner_cont ul{overflow:hidden;margin:0 auto;padding:20px}
+.byline .inner_cont li{display:inline-block;padding:10px 15px;margin-left:10px;background:url(https://images.joins.com/newsroom/dataDate/dot.png) 5px 18px no-repeat;color:#3c3e40;font-size:13px;line-height:18px}
+.byline .inner_cont li span{padding-top:4px;color:#9a9a9a}
+@media only screen and (max-width:768px){.byline{max-width:100%;border-left:none;border-right:none}
+.byline .inner_cont ul{padding:20px 10px}
+.byline .inner_cont li{display:block;margin-left:10px;font-size:14px;padding:4px 10px;background:url(https://images.joins.com/newsroom/dataDate/dot.png) 0 14px no-repeat}
+.byline .inner_cont li span{display:inline-block}
+}
+.other_cont .center_wrap{padding:10px 0;text-align:center;margin:0 auto;width:100%;max-width:1024px}
+.other_cont .center_wrap .title{display:inline-block;position:relative;font-size:16px;line-height:1.5;text-align:center;color:#878787}
+.other_cont .center_wrap .title:after,.other_cont .center_wrap .title:before{content:"";position:absolute;top:50%;width:100px;height:inherit;border-bottom:1px solid #878787}
+.other_cont .center_wrap .title a:hover{font-weight:700;text-decoration:none}
+.other_cont .center_wrap .title:before{right:110%}
+.other_cont .center_wrap .title:after{left:110%}
+@media only screen and (max-width:768px){.other_cont .center_wrap{max-width:100%;padding:0 0 15px;overflow:hidden}
+.other_cont .center_wrap .title{display:block;padding-left:12px;font-size:15px;text-align:left}
+.other_cont .center_wrap .title:after,.other_cont .center_wrap .title:before{content:none}
+}
+.other_cont .center_wrap .rolling_cont{overflow:hidden;text-align:center;padding-top:30px}
+@media only screen and (max-width:768px){.other_cont .center_wrap .rolling_cont{margin:0;padding-top:20px;overflow:auto}
+.other_cont .center_wrap .rolling_cont .item_wrap{width:100%;margin:0 auto}
+}
+.other_cont .center_wrap .rolling_cont .item_wrap{position:relative;overflow:hidden;transition:all .3s ease-in-out}
+.other_cont .center_wrap .rolling_cont .item_wrap .item{float:right;margin-bottom:20px;background:#000;width:49.5%;height:140px;overflow:hidden;cursor:pointer}
+.other_cont .center_wrap .rolling_cont .item_wrap .item:first-child{float:left;margin-left:0}
+.other_cont .center_wrap .rolling_cont .item_wrap .item .dimd_cover{position:absolute;display:block;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4)}
+.other_cont .center_wrap .rolling_cont .item_wrap .item .dimd_cover span{position:relative;color:#fff;font-size:16px;top:108px}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a{position:relative;display:block;width:100%;height:inherit;text-decoration:none}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a:hover img{-webkit-transform:rotate(0) scale(1.1) skew(0) translate(0);transform:rotate(0) scale(1.1) skew(0) translate(0)}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a img{width:100%;height:auto;transition:all .3s ease-out}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a .text_wrap{position:absolute;top:40%;width:100%;margin:0 auto}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a .text_wrap .title_txt{display:block;color:#fff;font-size:16px}
+@media only screen and (max-width:1024px){.other_cont .center_wrap .rolling_cont .item_wrap .item{margin-bottom:4px;height:120px}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a .text_wrap{top:46%}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a .text_wrap .title_txt{font-size:15px}
+}
+@media only screen and (max-width:768px){.other_cont .center_wrap .rolling_cont .item_wrap .item{float:none;margin:0 auto;width:96%;height:80px}
+.other_cont .center_wrap .rolling_cont .item_wrap .item:first-child{float:none;margin:0 auto 2px}
+.other_cont .center_wrap .rolling_cont .item_wrap .item a .text_wrap{top:40%}
+#bottom{width:100%;padding:0}
+}
+#bottom{margin:0 auto;background:#fff;box-sizing:border-box}
+#footer{position:relative;padding:30px 0;z-index:1000;background:#191919}
+#footer .footerWrap{width:1024px;margin:0 auto;color:#d9d9d9;text-align:left;font-size:11px}
+#footer .footerWrap .logoWrap{float:left;margin-left:240px}
+@media only screen and (max-width:1024px){#footer{padding:24px 0}
+#footer .footerWrap{width:90%}
+#footer .footerWrap .logoWrap{margin-left:0}
+}
+#footer .footerWrap .logoWrap a.j_logo{display:inline-block;width:70px;height:32px;background:url(https://images.joins.com/newsroom/common/ci_footer.png) 5px 4px no-repeat}
+@media only screen and (max-width:1024px){#footer .footerWrap .logoWrap a.j_logo{height:24px;background:url(https://images.joins.com/newsroom/common/ci_footer_m.png) no-repeat;background-size:61px}
+}
+#footer .footerWrap .footerCont{float:left;margin-left:16px}
+@media only screen and (max-width:768px){#footer .footerWrap .footerCont{margin-left:0;margin-top:0}
+}
+.comment-container{position:relative;background-color:#fff;font-size:12px;z-index:2}
+.comment-container h3{font-weight:700}
+.comment-wrapper{margin:0 auto;padding:20px 0 30px;max-width:880px}
+@media only screen and (max-width:1024px){.comment-wrapper{max-width:100%}
+}
+.comment-wrapper *,.comment-wrapper :after,.comment-wrapper :before{box-sizing:content-box}
+.comment-wrapper button,.m_list_wrap,.m_list_wrap .list_thumb,.m_list_wrap .list_thumb li,.m_list_wrap>div{box-sizing:border-box}
+.comment-wrapper-m{width:100%!important}
+.comment_popup{display:none;position:fixed;z-index:10000;background:#fff;top:0;left:50%;margin-left:-455px;width:910px;opacity:0;-webkit-transform:translateY(-100px);transform:translateY(-100px)}
+.comment_popup.open{display:block;opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
+.comment_popup .tit{padding:40px 0 30px 40px;font-size:26px;color:#231f20;border-bottom:1px solid #d6d6d6;letter-spacing:-.05em}
+.comment_popup .closeBtn{position:absolute;top:40px;right:60px;width:25px;height:25px;cursor:pointer;z-index:1000;transition:all .3s ease-in-out}
+.comment_popup .closeBtn .nav__x-svg{transition:all .2s ease-in-out}
+.comment_popup .closeBtn:hover .nav__x-svg{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.comment_popup .comment-container{overflow-y:auto;width:100%}
+.comment_popup .comment-wrapper{margin:0 auto;padding:20px;width:820px}
+@media only screen and (max-width:768px){.comment_popup .tit{font-size:20px;padding:40px 0 30px 20px}
+.comment_popup{top:0;left:0;margin-left:0;width:100%;height:auto}
+.comment_popup .closeBtn{right:20px}
+}
+.m_list_wrap{position:relative;padding-bottom:40px;width:100%;background:#fff}
+.m_list_wrap>div{min-width:640px;margin:0 auto;border:1px solid #ebebeb}
+@media only screen and (max-width:768px){.m_list_wrap{padding-bottom:0}
+.m_list_wrap>div{border:none;margin:0 auto;min-width:100%}
+}
+.m_list_wrap h3{padding:20px 20px 15px;text-align:center;font-size:15px;font-weight:400}
+@media only screen and (max-width:768px){.m_list_wrap h3{padding:30px 20px 15px}
+}
+.m_list_wrap .area{background-color:#fff;margin-bottom:3px;border-bottom:1px solid #d2d2d2}
+.m_list_wrap .btn_moreList{display:block;clear:both;position:relative;overflow:hidden;width:100%;margin-top:-4px;background-color:#f4f5f6;border-top:1px solid #e1e1e1}
+.m_list_wrap .btn_moreList span{display:block;width:100%;height:50px;margin-top:15px;background:url(https://images.joins.com/ui_joongang/news/mw/common/b_more.png) center 0 no-repeat;background-size:30px 100px;text-indent:-9999px}
+.m_list_wrap .btn_moreList:hover{background-color:#e6e6e6}
+.m_list_wrap .list_thumb{overflow:hidden;width:100%;padding:0 35px}
+@media only screen and (max-width:768px){.m_list_wrap .list_thumb{padding:0 5px}
+}
+.m_list_wrap .list_thumb li{float:left;width:25%;padding-top:15px;border-top:1px solid #f5f5f5}
+@media only screen and (max-width:768px){.m_list_wrap .list_thumb li{width:50%}
+img{max-width:100%}
+}
+.m_list_wrap .list_thumb li a{display:block;margin-bottom:15px;padding:0 5px;color:#241815;font-size:13px}
+.m_list_wrap .list_thumb li img{max-width:100%;width:auto;vertical-align:top}
+.m_list_wrap .list_thumb li .thumb{overflow:hidden;position:relative;display:block;margin:0 auto 5px;width:100%;height:auto}
+.m_list_wrap .list_thumb li .text{overflow:hidden;height:32px;margin:0 auto;font-weight:400;line-height:16px;display:block;color:#241815;text-align:left}
+.fulllayer{display:none;position:fixed;top:0;left:0;width:100%;height:100%;min-height:100%;background-color:rgba(32,32,32,.5);z-index:200}
+.layeron{display:block!important}
+.more_type{display:block;height:40px;margin:0 -20px;background-color:#ebebeb;border-top:1px solid #d3d2d2;line-height:40px;text-align:center}
+.btn_close{position:absolute;top:0;right:0;width:45px;height:45px;background:url(https://images.joins.com/ui_joongang/news/mw/common/i_head.png) 9px -138px no-repeat;background-size:25px 500px;text-indent:-9999px;z-index:3}
+.layer_login .tit_sub{overflow:hidden;height:39px;padding:0 20px;color:#241815;font-weight:700;font-size:18px;line-height:46px;background-color:#fff}
+.lnk_broccoli,header .databrew a{color:transparent!important;font-size:0}
+.layer_login .tit_sub:after{content:".";clear:both;display:block;font-size:0;height:0;line-height:0}
+.ban_naver img{display:block;width:100%}
+.lnk_broccoli{display:block;position:absolute;top:50%;left:50%;margin-top:-12px;margin-left:-38px;width:76px;height:20px;background:url(https://images.joins.com/newsroom/common/logo_broccoli.png) 0 0/cover no-repeat;overflow:hidden}
+header .databrew{position:relative;height:100%;margin:0 0 0 10px;float:left}
+header .databrew a{display:inline-block;width:98px;height:16px;background:url(https://images.joins.com/newsroom/common/bar_logo_data.png) center center/cover no-repeat;vertical-align:bottom}
+@media only screen and (max-width:768px){header .databrew{margin:1px 0 0 10px}
+header .databrew a{width:92px}
+}
+.publish_wrap{position:relative;z-index:10;background:#fff}
+.publish_wrap .link_mail{padding-top:10px;font-size:.9rem;text-align:center}
+.publish_wrap .link_mail a{display:inline-block;margin-left:5px;padding:2px 24px 2px 8px;background:url(https://images.joins.com/newsroom/2019/0131_taltal1/icon_link.png) 92% center no-repeat #898891;background-size:12px;color:#fff;font-size:.8rem;transition:all .2s ease;border-radius:3px}
+.publish_wrap .link_mail a:hover{text-decoration:none;background:url(https://images.joins.com/newsroom/2019/0131_taltal1/icon_link.png) 92% center no-repeat #333;background-size:12px}
+@media only screen and (max-width:768px){.publish_wrap .link_mail{padding-top:20px;font-size:.8rem}
+.publish_wrap .link_mail a{font-size:.7rem}
+}
+.publish_wrap .publish{position:relative;margin:0 auto;max-width:880px;font-size:.9rem;text-align:right;padding-top:10px;padding-bottom:20px}
+@media only screen and (max-width:768px){.publish_wrap{padding-top:12px}
+.publish_wrap .publish{padding:20px 15px 0;max-width:auto}
+}
+.new_byline{position:relative;z-index:10;padding:20px 0 40px;width:100%;background:#fff}
+@media only screen and (max-width:768px){.new_byline{width:auto;padding:12px 15px}
+}
+.new_byline .wrap{width:880px;margin:0 auto;font-weight:400}
+@media only screen and (max-width:768px){.new_byline .wrap{width:auto}
+}
+.new_byline .wrap h3.databrew{margin-bottom:10px;width:70px;height:25px;background:url(https://images.joins.com/newsroom/common/byline_bi.png) center center/cover no-repeat;font-size:0;color:transparent!important}
+.new_byline .wrap p{font-size:15px;color:#555}
+.new_byline .wrap .member{padding-top:30px;line-height:1.2}
+.new_byline .wrap .member ul:after{content:'';clear:both;display:block}
+.new_byline .wrap .member ul li{float:left;width:33%;box-sizing:border-box}
+.new_byline .wrap .member ul li>img{float:left;width:50px}
+@media only screen and (max-width:768px){.new_byline .wrap .member{padding-top:20px}
+.new_byline .wrap .member ul li{height:140px}
+.new_byline .wrap .member ul li>img{display:block;width:65px;margin:0 auto;float:none}
+}
+.new_byline .wrap .member ul li>div{display:inline-block;padding:5px 0 0 8px}
+.new_byline .wrap .member ul li>div span{display:block;font-size:.8rem}
+.new_byline .wrap .member ul li>div span:last-of-type{margin-top:5px}
+@media only screen and (max-width:768px){.new_byline .wrap .member ul li>div{padding:5px 8px 0;text-align:center}
+}
+.new_byline .wrap .member ul li:nth-of-type(n+4){margin-top:15px}
+.new_byline .wrap .member .inner_cont{margin:20px 0 10px;background:#f8f8f8;border:1px solid #ebebeb}
+.new_byline .wrap .member .inner_cont ul{overflow:hidden;margin:0 auto;padding:10px 50px}
+.new_byline .wrap .member .inner_cont ul li{display:inline-block;padding:10px 15px;margin-left:10px;width:48%;background:url(https://images.joins.com/newsroom/dataDate/dot.png) 5px 18px no-repeat;color:#3c3e40;font-size:13px;line-height:18px}
+.new_byline .wrap .member .inner_cont ul li strong{font-weight:500}
+.new_byline .wrap .member .inner_cont ul li span{padding-left:4px;color:#9a9a9a}
+@media only screen and (max-width:768px){.new_byline .wrap .member .inner_cont{padding:0}
+.new_byline .wrap .member .inner_cont ul{padding:10px 0}
+.new_byline .wrap .member .inner_cont ul li{margin-left:10px;width:auto;font-size:14px;padding:4px 10px;background:url(https://images.joins.com/newsroom/dataDate/dot.png) 3px 14px no-repeat}
+.new_byline .wrap .member .inner_cont ul li span{display:inline-block}
+}
+#bottom{position:relative;z-index:10;width:100%;overflow:hidden}
+#bottom .bottomWrap{position:relative;padding:8px 0 0;max-width:880px;margin:0 auto}
+@media only screen and (max-width:768px){#bottom .bottomWrap{max-width:100%}
+}
+#bottom .other_cont{position:relative;z-index:2;background:#fff}
+#bottom .other_cont .center_wrap{max-width:880px}
+#bottom .comment-wrapper{width:100%;max-width:880px}
